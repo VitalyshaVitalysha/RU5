@@ -12,3 +12,4 @@ cat -n proxylists.xml | sort | uniq > 2.txt ну тут всё понятно
 && sort -k8 4.txt > proxy2.txt ещё плотнее по 8й строке
 && sed -i "1,18d" proxy2.txt вырезал эти лишние строки в начале файла 18 штук
 && rm proxylists.xml 2.txt 3.txt 4.txt удалил промежуточный мусор ...
+и
